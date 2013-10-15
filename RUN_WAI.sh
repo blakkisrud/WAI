@@ -2,5 +2,5 @@
 
 echo "Starting up"
 ifconfig > tt1.txt
-cat tt1.txt
-mv tt1.txt ~/public_html
+scp tt1.txt blakkisrud@lynx.stud.ntnu.no:public_html
+echo "Done"
